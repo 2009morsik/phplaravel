@@ -28,6 +28,6 @@ class UserController extends Controller
 	public function dtb()
 	{
 	$dtb =  \DB::connection()->getDatabaseName();
-	return 'БД='.$dtb;
+	return 'База Д='.$dtb;
 	}
 }
